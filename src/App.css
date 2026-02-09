@@ -4,7 +4,6 @@
     linear-gradient(rgba(0, 255, 64, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 255, 65, 0.05) 1px, transparent 1px);
   background-size: 50px 50px;
-  
 }
 
 .body2{
@@ -156,7 +155,6 @@ animation: slideUp 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   box-shadow  : 0 0 10px 4xp red;
-  
 }
 
 .footer{
@@ -170,9 +168,6 @@ animation: slideUp 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
   font-size: 20px;
   box-shadow : 0 0 20px 4px red;
 }
-
-
-
 .codex{
   border: 1px solid red;
   margin: 10px;
@@ -372,4 +367,102 @@ text-align:  center;
   padding: 10px 20px;    /* Отступы вокруг текста */
   font-size: 100px;
   cursor: pointer;
+}
+
+@media(max-width : 390px){
+  .header_1{
+    padding: 0px;
+    margin: 0px;
+    background-size:90%;
+    height: 200px;
+    border-radius: 0;
+  }
+
+  .header_2{
+    padding: 0px;
+    margin: 0px;
+    background-size:90% ;
+    height: 200px;
+  }
+
+
+  .ol_btn{
+      font-size: 8px;
+      letter-spacing: 1px;
+      width: auto;
+      padding: 2px 3px;
+      margin: 1px;
+    }
+    .navigation{
+   gap: 4px;
+    }
+    .funtionYuja{ 
+      width: auto;
+    }
+    .divLicvidation , .helloYuja{
+      width: 120px;
+    }
+    .content-container{
+      width: 370px;
+      margin-top: 10px;
+      padding-left: 5px;
+      font-size: 20px;
+      margin: 0px;
+    }
+    .codex{
+      margin: 10px
+    }
+    .codex:active{
+      transform: scale(1.1);
+    }
+
+    .type2{
+        padding-right: 10px ;
+        margin: 2px;
+        width: 350px ;
+    }
+    
+    .detail_films{
+      margin-left: 0px;
+      margin-right: 5px;
+      margin-top: 40px;
+      height: auto;
+      width: auto;
+      border: none;
+      box-shadow :none;
+      }
+      .img_details{
+        height: 500px;
+         width: 300px;
+         box-shadow : 0 0 20px 4px rgb(3, 172, 3);
+       }
+       .ArsenalDetailImg{
+        width: 350px;
+        height: 300px;
+      }
+
+
+      .ArsenalDetailContainer{
+        align-items: center;
+        text-align: center;
+        width: 370px;
+        height: auto;
+        margin: 0px;
+        border: none;
+      }
+
+      .ArsenalDetailImgActive{
+        
+        top: 50%;
+        left: 50%;
+        bottom: -50px;
+        width: 500px;
+        height: auto;
+        transform: translate(-50%, -50%);
+      }
+       
+      .btm_ArsenalDetailImgActive{       
+        padding: 10px 20px;    
+        font-size: 20px;
+      }
 }
