@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Button from "./Button.jsx"
-import Play from "./audio.jsx";
+import Play from "./audio.js";
 import ActivationLiquidation from "./licvidation.jsx";
 
 
