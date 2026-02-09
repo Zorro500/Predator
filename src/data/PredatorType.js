@@ -1,7 +1,7 @@
 export const predatorType = [
   {
     id: 1,
-    img : './img/predator_shvarts.jpg',
+    img : 'img/predator_shvarts.jpg',
     type_name: "Классический Охотник (Jungle Hunter)",
     movie_source: "«Хищник» (Predator, 1987)",
     race: "Яутжа (Yautja), Классический клан или подвид",
@@ -14,7 +14,7 @@ export const predatorType = [
   },
   {
     id: 2,
-    img : './img/chujoi_vs_predator.jpg',
+    img : 'img/chujoi_vs_predator.jpg',
     type_name: "Молодая Кровь / Шрам (Scar)",
     movie_source: "«Чужой против Хищника» (Alien vs. Predator, 2004)",
     race: "Яутжа (Yautja), Молодая Кровь (Young Blood)",
@@ -29,7 +29,7 @@ export const predatorType = [
   },
   {
     id: 3,
-    img : './img/dobicha.jpg',
+    img : 'img/dobicha.jpg',
     type_name: "Феральный Хищник (Feral Predator)",
     movie_source: "«Добыча» (Prey, 2022)",
     race: "Яутжа (Yautja), Изолированный подвид ('пустынный хищник')",
@@ -51,7 +51,7 @@ export const predatorType = [
   ,
   {
     id: 4,
-    img:'./img/predator_city.jpg',
+    img:'img/predator_city.jpg',
     type_name: "Городской Охотник (City Hunter)",
     movie_source: "«Хищник 2» (Predator 2, 1990)",
     race: "Яутжа (Yautja), вероятно другой клан",
@@ -73,7 +73,7 @@ export const predatorType = [
   },
   {
     id: 5,
-    img:'./img/super_predator.webp',
+    img:'img/super_predator.webp',
     type_name: "Супер-хищники (Super Predators)",
     movie_source: "«Хищники» (Predators, 2010)",
     race: "Яутжа (Yautja), более крупный и агрессивный подвид 'Супер-хищники'",
@@ -94,7 +94,7 @@ export const predatorType = [
   },
   {
     id: 6,
-    img : './img/predator_recviem.webp',
+    img : 'img/predator_recviem.webp',
     type_name: "Волк (Wolf Predator)",
     movie_source: "«Чужие против Хищника: Реквием» (Alien vs. Predator: Requiem, 2007)",
     race: "Яутжа (Yautja), элитный 'Чистильщик'",

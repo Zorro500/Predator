@@ -7,7 +7,7 @@ export default function Start({onStart}){
 
  
 function PlayStart(){    
-    const audio = new Audio("/sounds/teplovizor.mp3");
+    const audio = new Audio(`${import.meta.env.BASE_URL}/sounds/teplovizor.mp3`);
     audio.play();
     }
 

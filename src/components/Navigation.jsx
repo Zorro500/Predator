@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export default function Navigation(){
 
     function PlayNavigation(){    
-    const audio = new Audio("/sounds/button_audio.mp3");
+    const audio = new Audio(`${import.meta.env.BASE_URL}sounds/button_audio.mp3`);
     audio.play();
     }
 

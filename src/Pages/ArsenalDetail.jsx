@@ -28,7 +28,7 @@ const arsenalIdDetail = PredatorArsenal.find(e=> e.id === parseInt(arsenalId))
         </div>
         :
         <div>
-            <img src={`.${arsenalIdDetail.img[colectionImg]}`} alt="img"  className= "ArsenalDetailImg" onClick={()=>setClickImg(true)}/>
+            <img src={`${import.meta.env.BASE_URL}${arsenalIdDetail.img[colectionImg]}`} alt="img"  className= "ArsenalDetailImg" onClick={()=>setClickImg(true)}/>
             <p>{arsenalIdDetail.description}</p>
            <p>{arsenalIdDetail.features}</p>
         </div>

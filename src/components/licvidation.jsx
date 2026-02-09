@@ -3,12 +3,12 @@ import Button from "./Button.jsx";
 
 export default function ActivationLiquidation() {
   const [timer, setTimer] = useState(14); 
-  const [isActive, setIsActive] = useState(false); // ← состояние активности
+  const [isActive, setIsActive] = useState(false); 
   
   useEffect(() => {
     let interval;
     
-    // Таймер работает только если isActive = true
+   
     if (isActive && timer > 0) {
       interval = setInterval(() => {
         setTimer(prev => prev - 1);
@@ -18,23 +18,23 @@ export default function ActivationLiquidation() {
     return () => {
       if (interval) clearInterval(interval);
     };
-  }, [timer, isActive]); // ← добавляем isActive в зависимости
+  }, [timer, isActive]); 
   
-  // Функция активации по кнопке
+  
   const activateTimer = () => {
     setIsActive(true);
   };
   
-  // Функция сброса
+
   const resetTimer = () => {
     setIsActive(false);
     setTimer(14);
   };
   
 function Timer(){   
-    const audio1 = new Audio("/sounds/taimer.mp3");
+    const audio1 = new Audio(`${import.meta.env.BASE_URL}sounds/taimer.mp3`);
     audio1.play();
-     const audio2 = new Audio("/sounds/zvuk-hischnika.mp3");
+     const audio2 = new Audio(`${import.meta.env.BASE_URL}sounds/zvuk-hischnika.mp3`);
     audio2.play();
 }
 
@@ -44,7 +44,7 @@ function Timer(){
         <Button  handlClik={()=>{
        activateTimer();
        Timer(); 
-      }}> {/* ← передаем функцию активации */}
+      }}>
         Активировать режим самоуничтожения
       </Button>
       

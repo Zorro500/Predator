@@ -16,13 +16,12 @@ export default function Card_films(){
                 <p>{currenFilms.movie_source}</p>
                 <p>{currenFilms.race}</p>
                 <p>{currenFilms.habitat}</p>
-                <img src={`.${currenFilms.img}`} alt={currenFilms.type_name} className="img_details"/>
+                <img src={`${import.meta.env.BASE_URL}${currenFilms.img}`} alt={currenFilms.type_name} className="img_details"/>
                 <p>{currenFilms.distinctive_features}</p>
                 <p>{currenFilms.armament}</p>
                 <Rating/>
                 <ProductReviews/>
                     </>
         </div>
-
     )
 }
