@@ -22,7 +22,7 @@ const arsenalIdDetail = PredatorArsenal.find(e=> e.id === parseInt(arsenalId))
 <button onClick={()=>setClickImg(false)}>Закрыть</button>
 <div className="ArsenalDetailImgActive">
 <button className="btm_ArsenalDetailImgActive" onClick={colectionImg > 0 ? ()=>setColectionImg(prev=> prev-1):colectionImg}> ◀ </button>
-<img src={`.${arsenalIdDetail.img[colectionImg]}`} alt="img"  onClick={()=>setClickImg(false)}/>
+<img src={`.${import.meta.env.BASE_URL}${arsenalIdDetail.img[colectionImg]}`} alt="img"  onClick={()=>setClickImg(false)}/>
 <button className="btm_ArsenalDetailImgActive" onClick={colectionImg  < arsenalIdDetail.img.length-1 ? ()=>setColectionImg(prev=>prev+1): colectionImg}>▶</button>
 </div>
         </div>

@@ -12,7 +12,7 @@ return (
 <div  className="ArsenalCardDetail">
     <Link to={`/arsenal/${item.id}`} key = {item.id}style={{ textDecoration: 'none', color: 'inherit' }}>
     <h2>{item.name}</h2>
-    <img src={item.img[0]} alt="img" className="ArsenalImg"/>
+    <img src={`${import.meta.env.BASE_URL}${item.img[0]}`} alt="img" className="ArsenalImg"/>
     </Link>
 </div>
 
