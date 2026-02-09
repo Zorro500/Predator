@@ -1,0 +1,375 @@
+.body{
+ background-color: black;
+  background-image: 
+    linear-gradient(rgba(0, 255, 64, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 65, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+  
+}
+
+.body2{
+ background-color: black;
+  background-image: 
+    linear-gradient(rgba(238, 48, 48, 0.171) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 12, 12, 0.164) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+.header_logo_1{
+  width: 700px;
+  height: 400px;
+}
+.text_title{
+width: 250px;
+margin-top: 50px;
+margin-left: 15px;
+  color: #ff0000;
+  text-shadow: 
+    0 0 10px #ff0000,
+    0 0 20px #ff3300;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  border: 1px solid red;
+box-shadow : 0 0 20px 4px red;
+opacity: 0;
+transform: translateY(50px) scale(0.95);
+animation: slideUp 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
+
+.header_1{
+  padding: 20px;
+  margin: 20px;
+  background-color:rgba(0, 0, 0, 0.5);
+  background-image:url(/img/header_logo_1.png) ;
+  background-size:1000px ;
+  background-repeat:no-repeat ;
+  background-position:center ;
+  height: 500px;
+  border-radius: 15%;
+  opacity: 0.6;
+}
+
+.header_2{
+  padding: 20px;
+  margin: 20px;
+  background-color:opacity;
+  background-image:url(/img/header_logo_2.png) ;
+  background-size:1000px ;
+  background-repeat:no-repeat ;
+  background-position:center ;
+  height: 500px;
+  border: 1px solid red;
+box-shadow : 0 0 20px 4px red;
+}
+
+.ol_btn{
+font-family: 'Arial Black', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  width: 320px;
+  background: rgba(30, 0, 0, 0.9); /* Темно-красный фон */
+  color: #ff0000; /* Красный текст */
+  text-shadow: 0 0 6px #ff0000;
+  
+  border: 1px solid #ff0000;
+  border-radius: 2px;
+  
+  padding: 10px 20px;
+  margin: 8px;
+  cursor: pointer;
+  
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.ol_btn::before {
+  content: '⠿';  
+  margin-right: 8px;
+  animation: targetPulse 1.5s infinite;
+  text-transform: uppercase;
+}
+
+@keyframes targetPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+
+.ol_btn:hover{
+  background: rgba(95, 1, 1, 0.9);
+  color: #f8afaf;
+}
+
+
+.navigation{
+  display: flex;
+  justify-content: center;
+}
+
+.funtionYuja{
+  display: flex;
+  justify-content: space-between; 
+  width: 1500px;
+}
+.divLicvidation , .helloYuja{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.content-container{
+  margin-top: 40px;
+  padding-left: 20px;
+  border: 1px solid #ff0000;
+  background-image:
+  linear-gradient(rgb(20, 4, 4)),linear-gradient(#3d0505)  opacity ;
+  
+  color : rgb(255, 255, 255) ;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  margin: 50px;
+  box-shadow : 0 0 20px 4px red;
+  opacity: 0;
+transform: translateY(50px) scale(0.95);
+animation: slideUp 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.content-container h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  box-shadow  : 0 0 10px 4xp red;
+  
+}
+
+.footer{
+  margin-top: 40px;
+  border: 1px solid #ff0000;
+  background-image:
+  linear-gradient(rgb(20, 4, 4)),linear-gradient(#3d0505)  opacity ;
+  
+  color : rgb(255, 255, 255) ;
+  border-radius :0px;
+  font-size: 20px;
+  box-shadow : 0 0 20px 4px red;
+}
+
+
+
+.codex{
+  border: 1px solid red;
+  margin: 10px;
+  text-align: center;
+
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 20px
+}
+
+.codex:active{
+  transform: scale(1.3);
+  box-shadow : 0 0 20px 4px red;
+    background: rgba(95, 1, 1, 0.9);
+  color: #fad9d9;
+}
+
+  .type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  gap:40px ;
+    margin: 20px;
+    padding: 20px;
+}
+
+.type2{
+
+
+  border: 1px solid red;
+  margin: 10px;
+  text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 5px ;
+    width: 400px ;
+}
+
+
+.type2:active{
+  transform: scale(1.3);
+  box-shadow : 0 0 20px 4px red;
+    background: rgba(95, 1, 1, 0.9);
+  color: #fad9d9;
+  
+}
+.img_films{
+height: 500px;
+width: 350px;
+}
+
+.detail_films{
+margin-left: 450px;
+text-align: center;
+height: auto;
+width: 800px;
+border: 1px solid rgb(3, 172, 3);
+box-shadow : 0 0 20px 4px rgb(3, 172, 3);
+color: white; 
+}
+
+.img_details{
+ height: 700px;
+  width: 500px;
+  box-shadow : 0 0 20px 4px rgb(3, 172, 3);
+}
+.ratingActive{
+  all: unset;
+  color:rgb(229, 255, 0) ;
+  font-size: 35px;
+  font-style: none;
+  border: none;
+}
+.ratingDisable{
+  all: unset;
+  font-size: 35px;
+}
+.averageRating_style{
+color:rgb(229, 255, 0) ;
+font-size: 45px;
+   font-weight: bold;
+}
+
+.revievDiv{
+display: flex;
+justify-content:space-between;
+background-color:white ;
+color:black ;
+height: auto;
+max-width: 790px;
+padding-left: 10px;
+margin-top: 15px;
+overflow-wrap: break-word;
+word-break: break-word;
+border: solid 1px rgb(172, 171, 171) ;
+}
+.text{
+  text-align: left;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 30px;
+}
+.img_revievDiv{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+/* Стили кнопок на Like и Dislike  в отзывах о фильме*/
+.likeDislike_div{
+  display: grid;
+  justify-content: flex-end;
+  flex-shrink: 0
+}
+.btm_likeDislike{
+    all: unset;
+    cursor: pointer;
+    font-size: 20px;
+filter: grayscale(100%);
+}
+.btm_likeDislike:hover{
+   all: unset;
+    cursor: pointer;
+    font-size: 22px;
+}
+.btm_likeDislike_active{
+   all: unset;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Arsenal*/
+.ArsenalContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 150px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+}
+
+.ArsenalCardDetail{
+  height: auto;
+  width: auto;
+  border:1px solid red ;
+  text-align:  center;
+}
+.ArsenalCardDetail:hover{
+border:1px solid red ;
+box-shadow : 0 0 20px 4px red;
+text-align:  center;
+
+}
+.ArsenalImg{
+  height: 200px;
+  width: 250px;
+}
+
+/*ArsenalDetail*/
+
+.ArsenalDetailContainer{
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 15px;
+  border: solid 1px red;
+}
+.ArsenalDetailImg{
+  width: auto;
+  height: 700px;
+}
+.ArsenalDetailImgActive{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: -50px;
+  width: 800px;
+  height: 800px;
+  transform: translate(-50%, -50%);
+}
+
+.btm_ArsenalDetailImgActive{
+  background: transparent; /* Прозрачный фон */
+  border: none;           /* Убираем рамку */
+  color: rgba(95, 1, 1, 0.9);         /* Цвет текста */
+  padding: 10px 20px;    /* Отступы вокруг текста */
+  font-size: 100px;
+  cursor: pointer;
+}
+.btm_ArsenalDetailImgActive:hover{
+  background: transparent; /* Прозрачный фон */
+  border: none;           /* Убираем рамку */
+  color: red;         /* Цвет текста */
+  padding: 10px 20px;    /* Отступы вокруг текста */
+  font-size: 100px;
+  cursor: pointer;
+}
