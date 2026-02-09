@@ -1,4 +1,4 @@
-import ButtonAudio from "./audio.jsx"
+import ButtonAudio from "./audio.js"
 
 export default function Button({children,handlClik,mouseEnter = {ButtonAudio}}){
     return(
