@@ -1,7 +1,7 @@
 export const PredatorArsenal = [
   {
     id: 1,
-    img: ['./img/plasmacaster.jpg', './img/plasmacaster2.jpg','./img/plasmacaster3.jpg','./img/plasmacaster4.jpg','./img/plasmacaster5.jpg'],
+    img: ['/img/plasmacaster.jpg', '/img/plasmacaster2.jpg','/img/plasmacaster3.jpg','/img/plasmacaster4.jpg','/img/plasmacaster5.jpg'],
     name: "Плазменная пушка",
     type: "Энергетическое оружие",
     description: "Устанавливается на наплечнике доспехов. Автоматически наводится на цель, синхронизируясь с прицелом шлема. Использует энергию ядерной энергоячейки.",
@@ -9,7 +9,7 @@ export const PredatorArsenal = [
   },
   {
     id: 2,
-    img: ['./img/plasmaSword.webp','./img/plasmaSword.jpeg'],
+    img: ['/img/plasmaSword.webp','/img/plasmaSword.jpeg'],
     name: "Плазменный меч",
     type: "Клинковое оружие",
     description: "Генератор плазмы создаёт лезвие контролируемой длины. Используется в ближнем бою и для ритуальных целей.",
@@ -18,14 +18,14 @@ export const PredatorArsenal = [
   {
     id: 3,
     name: "Боевой топор",
-    img:['./img/upscaled.jpg','./img/upscaled2.jpg'],
+    img:['/img/upscaled.jpg','/img/upscaled2.jpg'],
     type: "Метательное/рубящее оружие",
     description: "Тяжёлый топор с энергетическим лезвием. Используется как в ближнем бою, так и для метания.",
     features: ["Проникающая способность", "Может быть брошен на расстояние", "Часто украшен трофеями"]
   },
   {
     id: 4,
-    img:['./img/setka.jpg'],
+    img:['/img/setka.jpg'],
     name: "Сеть",
     type: "Ограничивающее оружие",
     description: "Прочная металлическая сеть, выстреливаемая из браслета. Предназначена для обездвиживания жертвы.",
@@ -33,7 +33,7 @@ export const PredatorArsenal = [
   },
   {
     id: 5,
-    img:['./img/predator-shuriken-og.jpg','./img/predator-shuriken-og2.jpg','./img/predator-shuriken-og1.jpg'],
+    img:['/img/predator-shuriken-og.jpg','/img/predator-shuriken-og2.jpg','/img/predator-shuriken-og1.jpg'],
     name: "Бумеранг (Цеврат)",
     type: "Метательное оружие",
     description: "Острая метательная звезда с несколькими лучами. Возвращается к владельцу по сложной траектории.",
@@ -41,7 +41,7 @@ export const PredatorArsenal = [
   },
   {
     id: 6,
-    img:['./img/doubleblade.avif','./img/chujoi_vs_predator.jpg','./img/chujoi_vs_predator2.jpg','./img/chujoi_vs_predator3.jpg','./img/chujoi_vs_predator4.jpg','./img/chujoi_vs_predator5.jpg','./img/chujoi_vs_predator6.jpg',],
+    img:['/img/doubleblade.avif','/img/chujoi_vs_predator.jpg','/img/chujoi_vs_predator2.jpg','/img/chujoi_vs_predator3.jpg','/img/chujoi_vs_predator4.jpg','/img/chujoi_vs_predator5.jpg','/img/chujoi_vs_predator6.jpg',],
     name: "Двойные копья",
     type: "Проникающее оружие",
     description: "Два коротких копья, скрытые в ручном компьютере. Выстреливаются с большой силой для ближнего боя.",
@@ -49,7 +49,7 @@ export const PredatorArsenal = [
   },
   {
     id: 7,
-    img:['./img/heatvisor.webp'],
+    img:['/img/heatvisor.webp'],
     name: "Тепловизор",
     type: "Сенсорное оборудование",
     description: "Основной режим зрения хищника. Позволяет видеть тепловые следы живых существ через большинство препятствий.",
@@ -57,7 +57,7 @@ export const PredatorArsenal = [
   },
   {
     id: 8,
-    img:['./img/lazer.jpg','./img/lazer1.jpg','./img/lazer2.jpg','./img/lazer4.jpg'],
+    img:['/img/lazer.jpg','/img/lazer1.jpg','/img/lazer2.jpg','/img/lazer4.jpg'],
     name: "Шлем с лазерным наведением",
     type: "Система прицеливания",
     description: "Шлем интегрирован с плечевой плазменной пушкой. Лазерный целеуказатель обеспечивает точное поражение цели.",
@@ -65,7 +65,7 @@ export const PredatorArsenal = [
   },
   {
     id: 9,
-    img:['./img/dobicha.jpg','./img/dobicha1.jpg','./img/dobicha3.jpg'],
+    img:['/img/dobicha.jpg','/img/dobicha1.jpg','/img/dobicha3.jpg'],
     name: "Энергетический щит",
     type: "Защитное оборудование",
     description: "Генератор на запястье создаёт энергетический барьер для блокировки атак.",
@@ -73,7 +73,7 @@ export const PredatorArsenal = [
   },
   {
     id: 10,
-    img:['./img/spear.jpg','./img/spear1.jpg','./img/spear2.jpg','./img/spear3.jpg','./img/spear4.jpg',],
+    img:['/img/spear.jpg','/img/spear1.jpg','/img/spear2.jpg','/img/spear3.jpg','/img/spear4.jpg',],
     name: "Копьё",
     type: "Древковое оружие",
     description: "Многофункциональное оружие, сочетающее функции копья, шеста и гарпуна. Имеет регулируемую длину.",
