@@ -9,6 +9,7 @@ import Navigation from './Navigation.jsx'
 
 function Layout() {
 const [startClose,setStartClose] = useState(false) ;
+const [timer, setTimer] = useState(14); 
 
 function StartClose(){
     setStartClose(prev=>!prev)
@@ -27,7 +28,7 @@ function StartClose(){
 :
 <>
 
-<Header onClose = {StartClose}/>
+<Header onClose = {StartClose} timer = {timer} setTimer={setTimer}/>
 <Navigation/>
 <main className="content-container">
   <Outlet/>

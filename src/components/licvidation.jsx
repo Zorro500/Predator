@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Button from "./Button.jsx";
 
-export default function ActivationLiquidation() {
-  const [timer, setTimer] = useState(14); 
+export default function ActivationLiquidation({timer,setTimer}) {
+ // const [timer, setTimer] = useState(14); 
   const [isActive, setIsActive] = useState(false); 
   
   useEffect(() => {
@@ -57,7 +57,7 @@ function Timer(){
       <h2 className="text_title">{`Взрыв через :${timer}`}</h2>
       </>
       }
-      {timer === 0 && <h1 className="text_title">💥 УНИЧТОЖЕНО!</h1>}
+      {timer === 0 && <h1 className="text_title" >💥 УНИЧТОЖЕНО!</h1>}
     </div>
     
     </>
