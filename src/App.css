@@ -41,8 +41,6 @@ animation: slideUp 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
     }
 }
 
-
-
 .header_1{
   padding: 20px;
   margin: 20px;
@@ -319,7 +317,6 @@ filter: grayscale(100%);
 border:1px solid red ;
 box-shadow : 0 0 20px 4px red;
 text-align:  center;
-
 }
 .ArsenalImg{
   height: 200px;
@@ -369,7 +366,7 @@ text-align:  center;
   cursor: pointer;
 }
 
-@media(max-width : 390px){
+@media(max-width : 768px){
   .header_1{
     padding: 0px;
     margin: 0px;
@@ -377,16 +374,30 @@ text-align:  center;
     height: 200px;
     border-radius: 0;
   }
-
   .header_2{
     padding: 0px;
     margin: 0px;
     background-size:90% ;
     height: 200px;
   }
-
-
-  .ol_btn{
+  .text_title{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 10px;
+      color: #ff0000;
+      text-shadow: 
+        0 0 2px #ff0000,
+        0 0 4px #ff3300;
+      font-family: 'Courier New', monospace;
+      font-weight:lighter;
+      border: 1px solid red;
+    box-shadow : 0 0 5px 1px red;
+    transform: translateY(10px) scale(0.95);
+    animation: slideUp 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+    }
+    .ol_btn{
       font-size: 8px;
       letter-spacing: 1px;
       width: auto;
@@ -403,11 +414,13 @@ text-align:  center;
       width: 120px;
     }
     .content-container{
-      width: 370px;
+
+      width: auto;
       margin-top: 10px;
       padding-left: 5px;
       font-size: 20px;
       margin: 0px;
+
     }
     .codex{
       margin: 10px
@@ -440,8 +453,6 @@ text-align:  center;
         width: 350px;
         height: 300px;
       }
-
-
       .ArsenalDetailContainer{
         align-items: center;
         text-align: center;
@@ -452,17 +463,23 @@ text-align:  center;
       }
 
       .ArsenalDetailImgActive{
-        
-        top: 50%;
-        left: 50%;
+        top: 45%;
+        left: 55%;
         bottom: -50px;
         width: 500px;
         height: auto;
         transform: translate(-50%, -50%);
       }
        
-      .btm_ArsenalDetailImgActive{       
-        padding: 10px 20px;    
-        font-size: 20px;
-      }
+    .btm_ArsenalDetailImgActive{
+      font-size: 30px;
+    }
+
+    .btm_ArsenalDetailImgActive:hover{
+      font-size: 30px;
+    }
+    .img_Active_arsenal_detail{
+      width: 350px;
+      height: 350px;
+    }
 }
